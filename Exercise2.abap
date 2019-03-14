@@ -38,4 +38,5 @@ CLASS lcl_airplane IMPLEMENTATION.
     SKIP.
     WRITE: / 'Number of airplanes:'(ca1),
     AT c_pos_1 gv_n_o_airplanes LEFT-JUSTIFIED.
-  ENDMETHOD. "display_n_o_airplanes ENDCLASS. "lcl_airplane IMPLEMENTATION
+  ENDMETHOD. "display_n_o_airplanes 
+  ENDCLASS. "lcl_airplane IMPLEMENTATION
