@@ -25,7 +25,8 @@ ENDCLASS. "lcl_airplane DEFINITION
 CLASS lcl_airplane IMPLEMENTATION.
   METHOD set_attributes.
     mv_name = iv_name. mv_planetype = iv_planetype.
-* doesn't make sense so much, only in order to get an effect * after calling display_n_o_airplanes:
+* doesn't make sense so much, only in order to get an effect 
+* after calling display_n_o_airplanes:
     gv_n_o_airplanes = gv_n_o_airplanes + 1.
   ENDMETHOD. "set_attributes
   METHOD display_attributes.
